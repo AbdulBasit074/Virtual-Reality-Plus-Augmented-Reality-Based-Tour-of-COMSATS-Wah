@@ -1,2 +1,3 @@
 # Virtual-Reality-Plus-Augmented-Reality-Based-Tour-of-COMSATS-Wah
 In this project i develop an android based virtual reality application that will display a 360 degree pre recorded images in both mono and stereo modes. User will be able to interact with this app by performing small motions on the smartphone for example tilting forward will let the user to move in forward direction, turning the smartphone around will show 360 degree view in the turned direction. Concentrating on a landmark point will provide text information about that part of the scene, etc. 
+# Need to Download Files/images and Set Path According To this.
