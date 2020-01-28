@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000014"
+
+
+    >
+
+    <Button
+        android:id="@+id/str"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:shadowColor="#EFF5F0"
+        android:background="@drawable/startbuttonstyle"
+        android:textSize="40dp"
+        android:typeface="serif"
+        app:layout_constraintVertical_bias="0.8"
+        android:padding="30dp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="INSTRUCTION"
+        android:typeface="serif"
+
+        android:textColor="#81817D"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/instructiontag"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintVertical_bias="0.4"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.4"
+            android:typeface="serif"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/instruction"
+            android:textSize="20dp"
+            android:textColor="#ACAC9C"
+            android:inputType="textMultiLine"
+            android:text="     -  Mobile must have gyroscope support\n        sensor.\n\n\n     -  User must
+have head mouted device \n         immersiveness and  satisfaction.
+\n\n\n      - Please there sensor value so sensitive \n        when you use  then according to \n
+      head position next postion will come.
+"
+
+            ></TextView>
+
+
+
+</android.support.constraint.ConstraintLayout>

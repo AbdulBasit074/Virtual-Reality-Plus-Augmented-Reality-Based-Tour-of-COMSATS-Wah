@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainpage"
+    android:background="#000015"
+    >
+    <ImageView
+        android:id="@+id/view_log"
+        android:layout_width="300dp"
+        android:layout_height="320dp"
+
+        android:layout_marginTop="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:shadowColor="#40C954"
+
+
+        android:padding="15dp"
+        />
+    <Button
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Location"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:shadowColor="#EFF5F0"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:background="@drawable/startbuttonstyle"
+        android:textSize="30dp"
+        app:layout_constraintVertical_bias="0.7"
+        android:padding="30dp"
+        android:textColor="#000000"
+        />
+
+
+
+
+</android.support.constraint.ConstraintLayout>
